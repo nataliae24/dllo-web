@@ -1,0 +1,108 @@
+@import url('https://fonts.cdnfonts.com/css/century-gothic');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background-color: #242933;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.content {
+    background-color: #2F3644;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px #3F455C;
+    width: 400px;
+}
+
+.form {
+    padding: 10px 20px;
+    background-color: #2F3644;
+}
+
+.form h1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #A7B8D9;
+}
+
+.form-field {
+    margin-bottom: 5px;
+}
+
+.form-field label {
+    display: block;
+    color: #A7B8D9;
+}
+
+.form-field input {
+    margin-top: 8px;
+    border: solid 2px #A7B8D9;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+}
+
+.form-field input:focus {
+    outline: none;
+}
+
+.form-field.error input {
+    border-color: #dc3545;
+    background-image: url(./images/error-icon.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
+}
+
+.form-field.success input {
+    border-color: #28a745;
+    background-image: url(./images/success-icon.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
+}
+
+.form-field small {
+    color: #dc3545;
+}
+
+/* button */
+.btn {
+    margin-top: 25px;
+    width: 100%;
+    background-color: #635EF2;
+    /*border-color: #312F73;*/
+    color: #ffffff;
+    border: 3px solid #312F73;
+    padding: 12px 0;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #312F73;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}
