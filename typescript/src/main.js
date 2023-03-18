@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Contact_1 = require("./model/Contact");
+const Addresses_1 = require("./model/Addresses");
+const Mails_1 = require("./model/Mails");
+const Phones_1 = require("./model/Phones");
+const Notes_1 = require("./model/Notes");
+console.log('------------- Starting ------------');
+let contact = new Contact_1.Contact(123, "Maria", "Lopez", 20, new Date("1980-09-24"), "F", "amarillo", new Addresses_1.Addresses("calle", 2, 12, "A", 2800, "Madrid", "Madrid"), new Mails_1.Mails("oficina", "maria@gmail.com"), new Phones_1.Phones("casa", 699658774), new Notes_1.Notes("test", "test"));
+console.log('contacto: ', contact);
