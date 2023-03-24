@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="95b5ff16-3518-4adb-9c56-53131deaace8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/mime.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Addresses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Addresses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Addresses.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Addresses.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Contact.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Contact.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Mails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Mails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Mails.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Mails.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Notes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Notes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Notes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Notes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Person.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Person.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Person.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Phones.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Phones.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Phones.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Phones.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2N4aJFjambBtquaoNpPSGEeR1T0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/workspace_frontend/dllo-web/typescript/Ejemplos/lab/service&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\workspace_frontend\\dllo-web\\typescript\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace_frontend\dllo-web\typescript\Ejemplos\lab\service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace_frontend\dllo-web\typescript\src" />
+      <recent name="C:\workspace_frontend\dllo-web\typescript\Ejemplos\lab\service\impl" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95b5ff16-3518-4adb-9c56-53131deaace8" name="Changes" comment="" />
+      <created>1678925734861</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678925734861</updated>
+      <workItem from="1678925736022" duration="1045000" />
+      <workItem from="1679005064421" duration="3829000" />
+      <workItem from="1679069468989" duration="7156000" />
+      <workItem from="1679086368255" duration="16311000" />
+      <workItem from="1679609402450" duration="15121000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Ejemplos/003_Enums_2.js" />
+        <option value="$PROJECT_DIR$/Ejemplos/007_Herencia_1.js" />
+        <option value="$PROJECT_DIR$/Ejemplos/005_Funciones.js" />
+        <option value="$PROJECT_DIR$/src/app.js" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/model/Addresses.js" />
+        <option value="$PROJECT_DIR$/src/model/Person.js" />
+        <option value="$PROJECT_DIR$/src/model/Contact.js" />
+        <option value="$PROJECT_DIR$/src/model/Mails.js" />
+        <option value="$PROJECT_DIR$/src/model/Notes.js" />
+        <option value="$PROJECT_DIR$/src/model/Phones.js" />
+        <option value="$PROJECT_DIR$/Ejemplos/012_namespaces.js" />
+        <option value="$PROJECT_DIR$/Ejemplos/001_variables.js" />
+        <option value="$PROJECT_DIR$/Ejemplos/007_coche_privada.js" />
+        <option value="$PROJECT_DIR$/Ejemplos/006_coche_publica.js" />
+        <option value="$PROJECT_DIR$/Ejemplos/004_Generics.js" />
+        <option value="$PROJECT_DIR$/Ejemplos/011_import_export.js" />
+        <option value="$PROJECT_DIR$/Ejemplos/006_constructor_2_super.js" />
+        <option value="$PROJECT_DIR$/Ejemplos/004_type.js" />
+        <option value="$PROJECT_DIR$/Ejemplos/008_clases abstractas_2.js" />
+        <option value="$PROJECT_DIR$/Ejemplos/005_forof.js" />
+        <option value="$PROJECT_DIR$/Ejemplos/004_type2.js" />
+        <option value="$PROJECT_DIR$/Ejemplos/002_Enums.js" />
+        <option value="$PROJECT_DIR$/Ejemplos/008_clases_abstractas.js" />
+        <option value="$PROJECT_DIR$/Ejemplos/010_interfaces.js" />
+        <option value="$PROJECT_DIR$/Ejemplos/006_constructores.js" />
+        <option value="$PROJECT_DIR$/Ejemplos/004_Casting.js" />
+        <option value="$PROJECT_DIR$/Ejemplos/005_Rest.js" />
+        <option value="$PROJECT_DIR$/Ejemplos/005_forof_2.js" />
+        <option value="$PROJECT_DIR$/src/service/AgendaService.js" />
+        <option value="$PROJECT_DIR$/src/service/impl/AgendaServiceImpl.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

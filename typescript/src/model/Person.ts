@@ -7,11 +7,19 @@ export class Person {
     private _gender: string;
     private _favoriteColor: string;
 
-    constructor(dni: number, name: string, surName: string, age: number, dateBirth: Date, gender: string, favoriteColor: string) {
+    constructor(dni: number, name: string, surName: string, dateBirth: Date, gender: string,
+                favoriteColor: string) {
+        //calculate age
+        let today = new Date();
+        let birthDate = new Date(dateBirth);
+        let calculateAge = today.getFullYear() - birthDate.getFullYear();
+        console.log("edad:" + calculateAge);
+        this._age = calculateAge;
+
         this._dni = dni;
         this._name = name;
         this._surName = surName;
-        this._age = age;
+        this._age = calculateAge;
         this._dateBirth = dateBirth;
         this._gender = gender;
         this._favoriteColor = favoriteColor;
@@ -53,6 +61,7 @@ export class Person {
     get dateBirth(): Date {
         return this._dateBirth;
     }
+
 
     set dateBirth(value: Date) {
         this._dateBirth = value;
