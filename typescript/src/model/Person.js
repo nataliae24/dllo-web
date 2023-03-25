@@ -7,7 +7,6 @@ var Person = /** @class */ (function () {
         var today = new Date();
         var birthDate = new Date(dateBirth);
         var calculateAge = today.getFullYear() - birthDate.getFullYear();
-        console.log("edad:" + calculateAge);
         this._age = calculateAge;
         this._dni = dni;
         this._name = name;

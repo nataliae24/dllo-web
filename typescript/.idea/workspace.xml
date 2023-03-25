@@ -5,21 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95b5ff16-3518-4adb-9c56-53131deaace8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/node_modules/.bin/mime.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Addresses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Addresses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Addresses.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Addresses.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Contact.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Contact.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Mails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Mails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Mails.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Mails.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Notes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Notes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Notes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Notes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Person.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Person.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Person.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Phones.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Phones.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Phones.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Phones.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/AgendaService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/AgendaService.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/impl/AgendaServiceImpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/impl/AgendaServiceImpl.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,21 +44,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/workspace_frontend/dllo-web/typescript/Ejemplos/lab/service&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\workspace_frontend\\dllo-web\\typescript\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/workspace_frontend/dllo-web/typescript/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\workspace_frontend\\dllo-web\\typescript\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\workspace_frontend\dllo-web\typescript\Ejemplos\lab\service" />
@@ -67,6 +67,11 @@
       <recent name="C:\workspace_frontend\dllo-web\typescript\src" />
       <recent name="C:\workspace_frontend\dllo-web\typescript\Ejemplos\lab\service\impl" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="NodeJSConfigurationType" nameIsGenerated="true" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,6 +86,7 @@
       <workItem from="1679069468989" duration="7156000" />
       <workItem from="1679086368255" duration="16311000" />
       <workItem from="1679609402450" duration="15121000" />
+      <workItem from="1679739598747" duration="36396000" />
     </task>
     <servers />
   </component>

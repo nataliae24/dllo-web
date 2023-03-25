@@ -27,35 +27,38 @@ var Contact = /** @class */ (function (_super) {
         _this._notes = notes;
         return _this;
     }
-    Contact.createContact = function (request) {
-        var contact = new Contact(request.dni, request.name, request.surName, request.dateBirth, request.gender, request.favoriteColor, request._addresses, request._mails, request._phones, request._notes);
-        this.contactList.push(contact);
-        console.log('contacto creado: ', contact);
-    };
     // @ts-ignore
     Contact.updateContact = function (request) {
-        var response = this.findById(request);
-        //setdata
-        var contact = new Contact(response.dni, response.name, response.surName, response.dateBirth, response.gender, response.favoriteColor, response.addresses, response.mails, response.phones, response.notes);
-        this.contactList.push(contact);
-        //missing update
-        console.log('contacto actualizado: ', this.contactList);
-        return contact;
+        var id = request.get("dni");
+        var response = this.findById(id);
+        if (response == null) {
+            console.log("DNI No encontrado!! ");
+        }
+        else {
+            response.addresses.push(request.get("addresses"));
+            response.mails.push(request.get("mails"));
+            response.phones.push(request.get("phones"));
+            return response;
+        }
+    };
+    /**
+     * findById
+     * @param dni
+     */
+    Contact.findById = function (dni) {
+        for (var _i = 0, _a = this._contactList; _i < _a.length; _i++) {
+            var iterator = _a[_i];
+            if (dni == iterator.dni) {
+                return iterator;
+            }
+        }
     };
     // @ts-ignore
-    Contact.deleteContact = function (request) {
-        console.log("deleteContact");
-        this.findById(request.dni);
-        //set Data missing
-        console.log("deleteContact" + request);
-    };
-    Contact.findById = function (dni) {
-        this.contactList.forEach(function (value) {
-            if (dni == value.dni) {
-                console.log("findById" + value);
-                return value;
-            }
-        });
+    Contact.findAll = function (list) {
+        for (var _i = 0, list_1 = list; _i < list_1.length; _i++) {
+            var iterator = list_1[_i];
+            console.log(iterator);
+        }
     };
     Object.defineProperty(Contact.prototype, "addresses", {
         //Getter and setter
@@ -94,6 +97,16 @@ var Contact = /** @class */ (function (_super) {
         },
         set: function (value) {
             this._notes = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Contact, "contactList", {
+        get: function () {
+            return this._contactList;
+        },
+        set: function (value) {
+            this._contactList = value;
         },
         enumerable: false,
         configurable: true

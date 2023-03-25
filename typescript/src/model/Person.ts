@@ -13,7 +13,6 @@ export class Person {
         let today = new Date();
         let birthDate = new Date(dateBirth);
         let calculateAge = today.getFullYear() - birthDate.getFullYear();
-        console.log("edad:" + calculateAge);
         this._age = calculateAge;
 
         this._dni = dni;

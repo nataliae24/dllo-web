@@ -5,15 +5,15 @@ import {Notes} from "./Notes";
 import {Person} from "./Person";
 
 export class Contact extends Person{
-    _addresses: Map<string,Addresses>;
-    _mails: Map<string,Mails>;
-    _phones: Map<string,Phones>;
-    _notes: Map<string, Notes>;
-    private contactList: any;
-    private static contactList: any;
+    private _addresses: Array<Addresses>;
+    private _mails: Array<Mails>;
+    private _phones: Array<Phones>;
+    private _notes: Array<Notes>;
+    private static _contactList: Contact[];
 
 
-    constructor(dni: number, name: string, surName: string, dateBirth: Date, gender: string, favoriteColor: string, addresses: Map<string, Addresses>, mails: Map<string, Mails>, phones: Map<string, Phones>, notes: Map<string, Notes>) {
+    constructor(dni: number, name: string, surName: string, dateBirth: Date, gender: string, favoriteColor: string,
+                addresses: Addresses[], mails: Mails[], phones: Phones[], notes: Notes[]) {
         super(dni, name, surName, dateBirth, gender, favoriteColor);
         this._addresses = addresses;
         this._mails = mails;
@@ -22,79 +22,80 @@ export class Contact extends Person{
     }
 
 
-    static createContact(request:Contact): void {
-        let contact = new Contact( request.dni, request.name, request.surName,
-            request.dateBirth, request.gender, request.favoriteColor, request._addresses,
-            request._mails,request._phones,request._notes);
-
-        this.contactList.push(contact)
-        console.log('contacto creado: ', contact);
-    }
-
     // @ts-ignore
-    static updateContact(request:number): Contact {
-        let response = this.findById(request);
-        //setdata
-        let contact = new Contact( response.dni, response.name, response.surName,
-            response.dateBirth, response.gender, response.favoriteColor, response.addresses,
-            response.mails,response.phones,response.notes);
-        this.contactList.push(contact)
-        //missing update
-        console.log('contacto actualizado: ', this.contactList);
-        return contact;
+     static updateContact(request:any): Contact {
+        let id = request.get("dni");
+        let response: any = this.findById(id);
+        if (response == null) {
+            console.log("DNI No encontrado!! ");
+        } else {
+            response.addresses.push(request.get("addresses"));
+            response.mails.push(request.get("mails"));
+            response.phones.push(request.get("phones"));
+            return response;
+        }
     }
 
-    // @ts-ignore
-    static deleteContact(request:Contact): void {
-        console.log("deleteContact");
-        this.findById(request.dni);
-        //set Data missing
-        console.log("deleteContact"+ request);
-    }
-
+    /**
+     * findById
+     * @param dni
+     */
     static findById(dni:number): any {
-        this.contactList.forEach(function (value:any) {
-            if (dni == value.dni) {
-                console.log("findById" + value);
-                return value;
+        for (const iterator of this._contactList) {
+            if (dni == iterator.dni) {
+                return iterator;
             }
-        });
+        }
     }
+
+    // @ts-ignore
+    static findAll(list:any): Contact[] {
+        for (const iterator of list) {
+            console.log(iterator)
+        }
+    }
+
 
 
     //Getter and setter
 
-
-    get addresses(): Map<string, Addresses> {
+    get addresses(): Array<Addresses> {
         return this._addresses;
     }
 
-    set addresses(value: Map<string, Addresses>) {
+    set addresses(value: Array<Addresses>) {
         this._addresses = value;
     }
 
-    get mails(): Map<string, Mails> {
+    get mails(): Array<Mails> {
         return this._mails;
     }
 
-    set mails(value: Map<string, Mails>) {
+    set mails(value: Array<Mails>) {
         this._mails = value;
     }
 
-    get phones(): Map<string, Phones> {
+    get phones(): Array<Phones> {
         return this._phones;
     }
 
-    set phones(value: Map<string, Phones>) {
+    set phones(value: Array<Phones>) {
         this._phones = value;
     }
 
-    get notes(): Map<string, Notes> {
+    get notes(): Array<Notes> {
         return this._notes;
     }
 
-    set notes(value: Map<string, Notes>) {
+    set notes(value: Array<Notes>) {
         this._notes = value;
     }
 
+    static get contactList(): any {
+        return this._contactList;
+    }
+
+    static set contactList(value: any) {
+        this._contactList = value;
+    }
 }
