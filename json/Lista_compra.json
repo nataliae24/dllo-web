@@ -1,0 +1,139 @@
+{
+    "supermercados": [
+      {
+        "codigo": "003",
+        "nombre": "Lidl",
+        "telefono": 641999999,
+        "email": "",
+        "direcciones": [
+          {
+            "pais": "",
+            "provincia": "",
+            "calle": "",
+            "numero": "",
+            "codigoPostal": "",
+            "geolocalización": {
+              "latitude": "",
+              "longitud": "",
+              "coordenadas": ""
+            },
+            "descripcion": "Bravo Murillo",
+            "telefono": 641999999
+          }
+        ],
+        "productos": [
+          {
+            "codigo": "001",
+            "nombre": "Pan",
+            "descripcion": "Pan con queso",
+            "categoria": "Panaderia",
+            "subCategoria": "Bolleria empacada",
+            "marca": "Lidl",
+            "precio": "1.50",
+            "unidades": 1,
+            "unidadMedida": "gr",
+            "adquirido": true,
+            "productoConsumoHabitualSinOferta": false,
+            "ofertas": {
+              "codigo": "001",
+              "titulo": "Pague 1 y lleve 2",
+              "descripcion": "Pan con queso",
+              "descuento": 10,
+              "fechaInicioVigencia": "02-03-2023",
+              "fechaFinVigencia": "02-04-2023"
+            }
+          },
+          {
+            "codigo": "001",
+            "nombre": "Pan",
+            "descripcion": "Pan con queso",
+            "categoria": "Panaderia",
+            "subCategoria": "Bolleria empacada",
+            "marca": "Lidl",
+            "precio": "1.50",
+            "unidades": 1,
+            "unidadMedida": "gr",
+            "cantidadDisponible": 100,
+            "adquirido": true,
+            "productoConsumoHabitualSinOferta": false,
+            "ofertas": {
+              "codigo": "001",
+              "titulo": "Pague 1 y lleve 2",
+              "descripcion": "Pan con queso",
+              "descuento": 10,
+              "fechaInicioVigencia": "02-03-2023",
+              "fechaFinVigencia": "02-04-2023"
+            }
+          }
+        ]
+      },
+      {
+        "codigo": "004",
+        "nombre": "Mercadona",
+        "telefono": 60099999,
+        "email": "",
+        "direcciones": [
+          {
+            "pais": "",
+            "provincia": "",
+            "calle": "",
+            "numero": "",
+            "codigoPostal": "",
+            "geolocalización": {
+              "latitude": "",
+              "longitud": "",
+              "coordenadas": ""
+            },
+            "descripcion": "Bravo Murillo",
+            "telefono": 641999999
+          }
+        ],
+        "productos": [
+          {
+            "codigo": "001",
+            "nombre": "Pan",
+            "descripcion": "Pan con queso",
+            "categoria": "Panaderia",
+            "subCategoria": "Bolleria empacada",
+            "marca": "Lidl",
+            "precio": "1.50",
+            "unidades": 1,
+            "unidadMedida": "gr",
+            "fechaVencimiento" : "17-12-2025",
+            "adquirido": true,
+            "productoConsumoHabitualSinOferta": false,
+            "ofertas": {
+              "codigo": "001",
+              "titulo": "Pague 1 y lleve 2",
+              "descripcion": "Pan con queso",
+              "descuento": 10,
+              "fechaInicioVigencia": "02-03-2023",
+              "fechaFinVigencia": "02-04-2023"
+            }
+          },
+          {
+            "codigo": "001",
+            "nombre": "Pan",
+            "descripcion": "Pan con queso",
+            "categoria": "Panaderia",
+            "subCategoria": "Bolleria empacada",
+            "marca": "Lidl",
+            "precio": "1.50",
+            "unidades": 1,
+            "unidadMedida": "gr",
+            "fechaVencimiento" : "17-12-2025",
+            "adquirido": true,
+            "productoConsumoHabitualSinOferta": false,
+            "ofertas": {
+              "codigo": "001",
+              "titulo": "Pague 1 y lleve 2",
+              "descripcion": "Pan con queso",
+              "descuento": 10,
+              "fechaInicioVigencia": "02-03-2023",
+              "fechaFinVigencia": "02-04-2023"
+            }
+          }
+        ]
+      }
+    ]
+  }
