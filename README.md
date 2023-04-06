@@ -1,2 +1,3 @@
 # dllo-web
-HTML
+JSON
+XML

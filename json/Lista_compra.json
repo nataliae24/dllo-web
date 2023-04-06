@@ -7,15 +7,15 @@
         "email": "",
         "direcciones": [
           {
-            "pais": "",
-            "provincia": "",
-            "calle": "",
-            "numero": "",
-            "codigoPostal": "",
+            "pais": "Espana",
+            "provincia": "Madrid",
+            "calle": "Salamanca",
+            "numero": "10",
+            "codigoPostal": "26330",
             "geolocalización": {
-              "latitude": "",
-              "longitud": "",
-              "coordenadas": ""
+              "latitude": "40.4165000",
+              "longitud": "-3.7025600",
+              "coordenadas": "40° 24' 59'' N; 03° 42' 09'' O"
             },
             "descripcion": "Bravo Murillo",
             "telefono": 641999999
@@ -74,17 +74,17 @@
         "email": "",
         "direcciones": [
           {
-            "pais": "",
-            "provincia": "",
-            "calle": "",
-            "numero": "",
-            "codigoPostal": "",
+            "pais": "Espana",
+            "provincia": "Toledo",
+            "calle": "Santa Ursula",
+            "numero": "12",
+            "codigoPostal": "26330",
             "geolocalización": {
-              "latitude": "",
-              "longitud": "",
-              "coordenadas": ""
+              "latitude": "40.4165000",
+              "longitud": "-3.7025600",
+              "coordenadas": "40° 24' 59'' N; 03° 42' 09'' O"
             },
-            "descripcion": "Bravo Murillo",
+            "descripcion": "",
             "telefono": 641999999
           }
         ],

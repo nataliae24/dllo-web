@@ -5,15 +5,15 @@
     <telefono>641999999</telefono>
     <email></email>
     <direcciones>
-      <pais></pais>
-      <provincia></provincia>
-      <calle></calle>
-      <numero></numero>
-      <codigoPostal></codigoPostal>
+      <pais>Espana</pais>
+      <provincia>Madrid</provincia>
+      <calle>Salamanca</calle>
+      <numero>10</numero>
+      <codigoPostal>26330</codigoPostal>
       <geolocalización>
-        <latitude></latitude>
-        <longitud></longitud>
-        <coordenadas></coordenadas>
+        <latitude>40.4165000</latitude>
+        <longitud>-3.7025600</longitud>
+        <coordenadas>40° 24' 59'' N; 03° 42' 09'' O</coordenadas>
       </geolocalización>
       <descripcion>Bravo Murillo</descripcion>
       <telefono>641999999</telefono>
@@ -68,17 +68,17 @@
     <telefono>60099999</telefono>
     <email></email>
     <direcciones>
-      <pais></pais>
-      <provincia></provincia>
-      <calle></calle>
-      <numero></numero>
-      <codigoPostal></codigoPostal>
+      <pais>Espana</pais>
+      <provincia>Toledo</provincia>
+      <calle>Santa Ursula</calle>
+      <numero>12</numero>
+      <codigoPostal>26330</codigoPostal>
       <geolocalización>
-        <latitude></latitude>
-        <longitud></longitud>
-        <coordenadas></coordenadas>
+        <latitude>40.4165000</latitude>
+        <longitud>-3.7025600</longitud>
+        <coordenadas>40° 24' 59'' N; 03° 42' 09'' O</coordenadas>
       </geolocalización>
-      <descripcion>Bravo Murillo</descripcion>
+      <descripcion></descripcion>
       <telefono>641999999</telefono>
     </direcciones>
     <productos>
