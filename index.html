@@ -12,16 +12,16 @@
     <h1>API's de HTML5</h1>
 
     <form id="apiForm">
-        <div>
+        <div id="content_file">
             <label for="fileId">Elige un video para subir: </label>
             <input type="file" id="fileId" onclick="loadVideo(document.getElementById('fileId'))"
             accept=".webm, .mp4, .ogg" />
         </div>
-        <div id="container_video" class="content">
+        <div id="container-video" class="content">
             <div>
                 <video id="videoId"  width="370" height="300" autoplay controls></video>
             </div>
-            <div>
+            <div class="container-button">
                 <input type="button" value="Play" onclick="play(document.getElementById('videoId'))">
                 <input type="button" value="Pause" onclick="pause(document.getElementById('videoId'))">
                 <input type="button" value="Vol+" onclick="document.getElementById('videoId').volume +=

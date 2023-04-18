@@ -1,4 +1,5 @@
 if (window.File && window.FileReader && window.FileList) {
+  
 
   function loadVideo(inputFile) {
     const video = document.getElementById("videoId");
@@ -12,6 +13,7 @@ if (window.File && window.FileReader && window.FileList) {
         const file = inputFile.files[0];
         const videourl = URL.createObjectURL(file);
         video.setAttribute("src", videourl);
+        alert("Cargando....");
         play(video);
       });
     }
@@ -34,4 +36,3 @@ if (window.File && window.FileReader && window.FileList) {
 } else {
     alert("La Api File no es soportado en el navegador.");
 }
-

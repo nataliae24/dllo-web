@@ -1,0 +1,33 @@
+.form {
+    padding: 10px 20px;
+    background-color: #2F3644;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background-color: #242933;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.content {
+    background-color: #2F3644;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px #3F455C;
+    width: 400px;
+    margin-top: 15px;
+}
+
+.container-button  {
+  margin-top: 8px;
+  margin-bottom: 50px;
+  margin-left: 85px;
+  justify-content: center;
+  /*background-color: #c5f54b;*/
+}
