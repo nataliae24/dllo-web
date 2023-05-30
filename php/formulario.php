@@ -12,7 +12,7 @@ if(empty($_POST) == true) {
     if (isset($_POST["enviar"])) {
         //variables
         $host = '127.0.0.1';
-        $database = 'agenda';
+        $database = 'agenda_db';
         $user = 'root';
         $pswd = '';
         $connection = mysql_connect($host,$user,$pswd);	
@@ -21,7 +21,7 @@ if(empty($_POST) == true) {
     
         //create query
         $sql = "
-        INSERT INTO user (name, lastName, email)
+        INSERT INTO users (name, lastname, email)
         VALUES ('$name', '$lastName','$email') ";
     
         //execute query
