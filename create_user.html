@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Registro</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/century-gothic">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="content">
+        <form id="form_create_account" action="new.php" method="post">
+            <h3>Regístrese</h3>
+            <div class="field">
+                <input type="text" name="userName" id="userName" placeholder="Nombre">
+                <small></small>
+            </div>
+
+            <div class="field">
+                <input type="text" name="firstName" id="firstName" placeholder="Primer Apellido">
+                <small></small>
+            </div>
+
+            <div class="field">
+                <input type="text" name="secondName" id="secondName" placeholder="Segundo Apellido">
+                <small></small>
+            </div>
+
+            <div class="field">
+                <input type="text" name="email" id="email" placeholder="Email">
+                <small></small>
+            </div>
+
+            <div class="field">
+                <input type="text" name="user" id="user" placeholder="Usuario">
+                <small></small>
+            </div>
+
+            <div class="field">
+                <input type="password" name="password" id="password" placeholder="Contraseña">
+                <small></small>
+            </div>
+
+            <div class="field">
+                <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirme su contraseña">
+                <small></small>
+            </div>
+
+            <div>
+                <p>Al hacer clic en Registrarse, acepta nuestros <a href="#">términos y condiciones</a>.</p>
+                <button type="submit"class="btn btn-primary">Registrarse</button>
+                <button type="submit"class="btn btn-secondary"><a href="index.php">Consultar</a></button>
+                
+            </div>
+        </form>
+    </div>
+
+     <script src="script.js"></script>
+</body>
+</html>

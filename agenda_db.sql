@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 06-05-2023 a las 15:35:20
+-- Tiempo de generación: 16-06-2023 a las 00:14:58
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.0.28
 
@@ -29,22 +29,23 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `users` (
   `id` int(20) NOT NULL,
-  `dni` varchar(20) NOT NULL,
   `name` varchar(20) NOT NULL,
-  `lastname` varchar(20) NOT NULL,
+  `first_name` varchar(20) NOT NULL,
+  `second_name` varchar(20) NOT NULL,
   `email` varchar(20) NOT NULL,
-  `phone` int(20) DEFAULT NULL
+  `user` varchar(20) NOT NULL,
+  `password` varchar(32) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `users`
 --
 
-INSERT INTO `users` (`id`, `dni`, `name`, `lastname`, `email`, `phone`) VALUES
-(1, '001', 'Carlota', 'Pérez', 'carlota@test.com', 987334501),
-(2, '002', 'Ramiro', 'Martínez', 'mr@test.com', 0),
-(3, '003', 'Ana', 'Osorio', 'osorio.ana@test.com', 0),
-(4, '004', 'Felipe', 'Restrepo', 'felipe.rpo@test.com', 0);
+INSERT INTO `users` (`id`, `name`, `first_name`, `second_name`, `email`, `user`, `password`) VALUES
+(1, 'Carlota', 'Pérez', 'González', 'carlota@test.com', 'carlota22', '4a7d1ed414474e4033ac29ccb8653d9b'),
+(2, 'Ramiro', 'Martínez', 'Campo', 'mr@test.com', 'mr2023', '4a7d1ed414474e4033ac29ccb8653d9b'),
+(3, 'Ana', 'Osorio', 'Fernández', 'osorio.ana@test.com', 'ana.osorio', '4a7d1ed414474e4033ac29ccb8653d9b'),
+(4, 'Felipe', 'Restrepo', 'Sánchez', 'felipe.rpo@test.com', 'felipe44', '4a7d1ed414474e4033ac29ccb8653d9b');
 
 --
 -- Índices para tablas volcadas
@@ -64,7 +65,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT de la tabla `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=82;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
